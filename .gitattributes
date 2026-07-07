@@ -1,0 +1,36 @@
+# Auto detect text files and normalize line endings to LF in the repo
+* text=auto eol=lf
+
+# KiCad project & design files (S-expression / JSON text formats)
+*.kicad_pro     text eol=lf
+*.kicad_pcb     text eol=lf
+*.kicad_sch     text eol=lf
+*.kicad_sym     text eol=lf
+*.kicad_mod     text eol=lf
+*.kicad_wks     text eol=lf
+*.kicad_prl     text eol=lf
+fp-lib-table    text eol=lf
+sym-lib-table   text eol=lf
+
+# STM32CubeMX project file
+*.ioc           text eol=lf
+
+# Other text/config formats
+*.json          text eol=lf
+*.md            text eol=lf
+*.csv           text eol=lf
+.gitignore      text eol=lf
+.gitattributes  text eol=lf
+
+# Binary assets - do not diff, do not normalize line endings
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.stp           binary
+*.step          binary
+*.zip           binary
+*.pdf           binary
+*.html          binary linguist-generated=true
+
+# Mark generated fabrication/report output as generated (hidden by default in GitHub diffs)
+ibom.html       binary linguist-generated=true
