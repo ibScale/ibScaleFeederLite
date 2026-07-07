@@ -24,7 +24,7 @@ The RGB status LED has been changed to a Lite-On LTST-S33FBEGW-5A. This LED has 
 The original buttons were probably one of the biggest pain points on the original Rev12 design. These have been upgraded to Diptronics PTCF-V-T/R with J-hook stems. These switches are larger and available from a variety of suppliers. This along with improved debounce circuitry provide a better user experience.
 
 ### SWD connector
-The original placement of the SWD connector made it difficult to use commonly available POGO pin clips like the Adafruit 5434. The connector was rotated and moved to the edge of the PCB to make using POGO pin clips easier. The rear SWD connector was removed.
+The original placement of the SWD connector made it difficult to use commonly available POGO pin clips like the Adafruit 5434. The connector was rotated and moved to the edge of the PCB to make using POGO pin clips easier.
 
 ## Hardware overview
 
