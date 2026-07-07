@@ -8953,6 +8953,12 @@
 		(uuid "10611c62-ebe7-4f56-8c8f-6d0d711f7df1")
 	)
 	(junction
+		(at 190.5 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10eec7bb-b97e-4baf-9067-5ac349d7d1bb")
+	)
+	(junction
 		(at 86.36 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9289,6 +9295,10 @@
 		(uuid "38a4d11f-0469-4d97-9be3-befe09dca077")
 	)
 	(no_connect
+		(at 210.82 187.96)
+		(uuid "39c8dee7-0052-4f5e-abdf-f932e6be4fa2")
+	)
+	(no_connect
 		(at 276.86 154.94)
 		(uuid "3fa1615c-8b37-46dd-a8b4-e23575c584f6")
 	)
@@ -9307,6 +9317,10 @@
 	(no_connect
 		(at 276.86 170.18)
 		(uuid "730c148a-4f05-4b16-9d12-be245df4ae62")
+	)
+	(no_connect
+		(at 210.82 185.42)
+		(uuid "73b1130f-1b4c-4690-981f-3ddadaeb9d2b")
 	)
 	(no_connect
 		(at 154.94 185.42)
@@ -10006,6 +10020,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 190.5) (xy 190.5 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd40ad1-451e-429f-8512-6b97aadc0044")
+	)
+	(wire
+		(pts
 			(xy 259.08 111.76) (xy 264.16 111.76)
 		)
 		(stroke
@@ -10574,6 +10598,16 @@
 		)
 		(uuid "04d60912-56f0-4d90-9af6-fdb5e0bb1dec")
 	)
+	(label "SWCLK"
+		(at 210.82 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e41c617-4653-4a71-8697-6ca5fcd68ee9")
+	)
 	(label "RS485-TX"
 		(at 48.26 232.41 180)
 		(effects
@@ -10653,6 +10687,16 @@
 			(justify left bottom)
 		)
 		(uuid "39425c2d-16bf-453f-ac3d-d0c57255f857")
+	)
+	(label "SWDIO"
+		(at 210.82 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c4442a4-32d4-45dd-a047-c18b41e33e06")
 	)
 	(label "~{MOTOR_ENABLE}"
 		(at 307.34 104.14 0)
@@ -10923,6 +10967,16 @@
 			(justify right bottom)
 		)
 		(uuid "bbca47bb-cd6d-4aef-80b8-4f39294456f9")
+	)
+	(label "~{RESET}"
+		(at 210.82 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbfc1c94-45ea-4d78-bb9d-68210f21605f")
 	)
 	(label "SW_UP"
 		(at 307.34 154.94 0)
@@ -18574,6 +18628,198 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
+		(at 198.12 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "574e2da4-7efd-4df5-a6cd-6c43ef7e161d")
+		(property "Reference" "J6"
+			(at 200.66 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWD"
+			(at 200.66 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
+			(at 189.23 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part" ""
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" ""
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "848f24c2-84c8-4b61-838d-9e465611955b")
+		)
+		(pin "4"
+			(uuid "de417aef-d4f8-41a7-816c-11d4d2feb586")
+		)
+		(pin "3"
+			(uuid "14f7e7b6-a054-4462-baf2-29fe4ac313c0")
+		)
+		(pin "2"
+			(uuid "f752cf46-f9c8-4329-a762-3b8a1d8d63bc")
+		)
+		(pin "1"
+			(uuid "9cd3d9ef-d9d8-416d-88eb-6c48302d8b68")
+		)
+		(pin "10"
+			(uuid "ad4f7603-9d7b-4ef6-95c2-f20632de101f")
+		)
+		(pin "9"
+			(uuid "7e951c69-211f-4faf-b864-756a5853bd2b")
+		)
+		(pin "8"
+			(uuid "2b579587-b340-4bdd-bb0a-5ded52391bfe")
+		)
+		(pin "7"
+			(uuid "1684284f-ee5e-4969-8a51-bacf10d1f37c")
+		)
+		(pin "6"
+			(uuid "c5c77c40-a955-4074-8b9c-9b52802ff7b8")
+		)
+		(instances
+			(project "ibScaleFeederLite"
+				(path "/347227a4-c111-4502-b3dd-e4a4bce3fd36"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 144.78 251.46 90)
 		(unit 1)
@@ -18993,6 +19239,85 @@
 			(project "ibScaleFeederLite"
 				(path "/347227a4-c111-4502-b3dd-e4a4bce3fd36"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 210.82 193.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fd2f8fa-0424-4c8a-b54d-71ccf44d9919")
+		(property "Reference" "#PWR071"
+			(at 207.01 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 214.63 193.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 210.82 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "008b3d80-e8f0-4964-b1e1-55e4d37f92c7")
+		)
+		(instances
+			(project "ibScaleFeederLite"
+				(path "/347227a4-c111-4502-b3dd-e4a4bce3fd36"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -22520,6 +22845,85 @@
 			(project "ibScaleFeederLite"
 				(path "/347227a4-c111-4502-b3dd-e4a4bce3fd36"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 193.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86d123d9-e9b8-4b89-a051-cde910fd65ec")
+		(property "Reference" "#PWR056"
+			(at 184.15 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 193.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f2fb07f-9978-4ca0-81d8-eaa96a9a47bf")
+		)
+		(instances
+			(project "ibScaleFeederLite"
+				(path "/347227a4-c111-4502-b3dd-e4a4bce3fd36"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
