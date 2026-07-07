@@ -30,13 +30,12 @@ The original placement of the SWD connector made it difficult to use commonly av
 
 | Function | Part |
 |---|---|
-| MCU | STM32F411CEU6 (Arm Cortex-M4, 100 MHz, 512 KB flash) |
-| Motor drivers (Drive / Peel) | 2x TI DRV8837 H-bridge driver |
-| RS-485 transceiver | TI THVD1400D (half-duplex, 57600 baud feeder bus) |
+| MCU | STM32F031C6T6 (Arm Cortex-M0, 48 MHz, 32 KB flash) |
+| Motor drivers (Drive / Peel) | 2x TI DRV8837 |
+| RS-485 transceiver | TI THVD1400D |
 | Buck regulator | TI TPS563300 |
-| Status LED | Lite-On LTST-S33FBEGW-5A RGB LED |
+| Status LED | Lite-On LTST-S33FBEGW-5A |
 | UP/DOWN/BOOT switches | Diptronics PTCF-V-T/R |
-| Input protection | PPTC fuse (0.75A hold / 1.5A trip) |
 
 ## Repository structure
 
