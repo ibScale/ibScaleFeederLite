@@ -1,13 +1,13 @@
 # ibScaleFeederLite
 
-`ibScaleFeederLite` is an updated version of the [Opulo LumenPNP Rev 12 Feeder](https://github.com/opulo-inc/feeder) motherboard with several enhancements pulled from the [ibScale Micropython Feeder](https://github.com/ibScale/ibScaleMPFeeder) motherboard.
+`ibScaleFeederLite` is an updated version of the [Opulo LumenPNP Rev 12 Feeder](https://github.com/opulo-inc/feeder) motherboard with several enhancements.
 
 ![ibScaleFeederLite](ibScaleFeederLite.png)
 
 ## What's different from the Rev 12 motherboard
 
 ### PCB Stackup
-The PCB was changed to a 4-layer stackup with 7628 prepreg. The cost difference is negligible compared to the original 2-layer stackup. This allows for a cleaner layout with improved routing and component placement. The bottom layer of the PCB is kept as a ground layer only with no traces. Since this layer of the PCB is exposed it is very likely to get knicked, scratched, or otherwise damaged by the environment. This prevents any minor damage from affecting the operation of the feeder.
+The PCB is a 4-layer stackup with 7628 prepreg. The cost difference is negligible compared to the original 2-layer stackup. This allows for a cleaner layout with improved routing and component placement. The bottom layer of the PCB is kept as a ground layer only with no traces. Since this layer of the PCB is exposed it is very likely to get knicked, scratched, or otherwise damaged by the environment. This prevents any minor damage from affecting the operation of the feeder.
 
 ### DC/DC buck converter
 The original OnSemi MC34063AD design used a 100µF input and 470µF output electrolytic capacitors. These capacitors are relatively expensive and difficult to source in low-profile heights suitable for the 8mm feeders. The large 100uF input capacitance would also cause arcing during insertion from the inrush current while charging. In addition to this, if the LumenPNP had 50 feeders plugged in the excessive bus capacitance would cause power sag (brown out) or potentially even trip the over-current protection. If the over-current protection does trip then the LumenPNP will boot loop as the 24V DC supply resets.
