@@ -12,7 +12,7 @@
 		(date "2026-07-17")
 		(rev "0.0.1")
 		(company "CERN-OHL-S-2.0")
-		(comment 1 "00000000")
+		(comment 1 "72fb51ba76")
 		(comment 2 "Based on Opulo LumenPNP Rev 12 Feeder mobo")
 		(comment 3 "All 3.3V MLCC ≥16V ±10% ≥X5R; All 10V MLCC ≥25V; All resistors 1% ≥0.1w")
 		(comment 4 "PCB designed for 4-layer 7628 prepreg stackup")
@@ -29360,7 +29360,7 @@
 			)
 		)
 	)
-	(gr_text "2026-07-17\nv.0.0.1\nGIT 00000000\nCERN-OHL-S-2.0"
+	(gr_text "2026-07-17\nv.0.0.1\nGIT 72fb51ba76\nCERN-OHL-S-2.0"
 		(at 122.6 87.3 0)
 		(layer "F.SilkS")
 		(uuid "9115269e-a573-4506-bf69-8bc5bba86dec")
@@ -29407,7 +29407,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "FeederLite\n2026-07-17\nv.0.0.1\nGIT 00000000"
+	(gr_text "FeederLite\n2026-07-17\nv.0.0.1\nGIT 72fb51ba76"
 		(at 108.3564 55.830914 180)
 		(layer "B.SilkS")
 		(uuid "58bcb41d-1800-44e2-855d-180df458d2c6")

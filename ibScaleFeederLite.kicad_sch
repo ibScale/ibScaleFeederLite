@@ -9,7 +9,7 @@
 		(date "2026-07-17")
 		(rev "0.0.1")
 		(company "CERN-OHL-S-2.0")
-		(comment 1 "00000000")
+		(comment 1 "72fb51ba76")
 		(comment 2 "Based on Opulo LumenPNP Rev 12 Feeder mobo")
 		(comment 3 "All 3.3V MLCC ≥16V ±10% ≥X5R; All 10V MLCC ≥25V; All resistors 1% ≥0.1w")
 		(comment 4 "PCB designed around 7628 prepreg 4-layer")
