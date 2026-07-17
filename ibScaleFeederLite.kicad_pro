@@ -90,6 +90,18 @@
         [
           "copper_edge_clearance|105675271|26174806|7c1669ac-dff5-472e-9665-c2e8b4c2bcea|a2d2e784-e2b9-4bda-9b15-873d3948096b",
           ""
+        ],
+        [
+          "solder_mask_bridge|128404672|114045328|cca9ba89-08bd-4083-9329-66b4ac7ac1da|01403b98-f0be-49e0-896e-b063272f55cf",
+          ""
+        ],
+        [
+          "solder_mask_bridge|135221420|29157442|b4f3e58b-5acb-4d80-a09f-10b859909e9a|01403b98-f0be-49e0-896e-b063272f55cf",
+          ""
+        ],
+        [
+          "solder_mask_bridge|98184220|69102063|8b86532c-fc78-496c-a7d7-ab5fc8d2a555|01403b98-f0be-49e0-896e-b063272f55cf",
+          ""
         ]
       ],
       "meta": {
@@ -296,7 +308,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.0.0"
+      "sch_revision": "0.0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],

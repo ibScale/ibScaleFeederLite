@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "Feeder Lite")
-		(date "2026-07-07")
-		(rev "0.0.0")
+		(date "2026-07-17")
+		(rev "0.0.1")
 		(company "CERN-OHL-S-2.0")
 		(comment 1 "00000000")
 		(comment 2 "Based on Opulo LumenPNP Rev 12 Feeder mobo")
