@@ -9410,7 +9410,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 161.29) (xy 332.74 167.64)
+			(xy 332.74 160.02) (xy 332.74 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9427,16 +9427,6 @@
 			(type default)
 		)
 		(uuid "0a78fd2b-05cc-4fa9-8df9-a4e6d33cd149")
-	)
-	(wire
-		(pts
-			(xy 327.66 160.02) (xy 327.66 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b4ea130-8a9c-42a0-bdf8-14ce02bf60fb")
 	)
 	(wire
 		(pts
@@ -9940,7 +9930,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 161.29) (xy 332.74 161.29)
+			(xy 327.66 160.02) (xy 332.74 160.02)
 		)
 		(stroke
 			(width 0)
@@ -25588,7 +25578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100r"
+		(property "Value" "120r"
 			(at 311.658 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25632,7 +25622,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
+		(property "Manufacturer_Name" "Eaton"
 			(at 309.88 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -25676,7 +25666,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C501996"
+		(property "LCSC" "C14709"
 			(at 309.88 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -25687,7 +25677,7 @@
 				)
 			)
 		)
-		(property "Mouser" "810-MPZ1608Y101BTA00"
+		(property "Mouser" "704-MFBM1V1608-121-R"
 			(at 309.88 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -25698,7 +25688,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part" "MPZ1608Y101BTA00"
+		(property "Manufacturer_Part" "MFBM1V1608-121-R"
 			(at 309.88 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -25709,7 +25699,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "445-MPZ1608Y101BTA00CT-ND"
+		(property "DigiKey" "283-MFBM1V1608-121-RCT-ND"
 			(at 309.88 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -25846,6 +25836,39 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-13330RL"
+			(at 149.86 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 149.86 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" ""
+			(at 149.86 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 149.86 106.68 0)
 			(hide yes)
 			(show_name no)
