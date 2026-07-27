@@ -14457,7 +14457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_TDK_VLS6045EX_VLS6045AF"
 			(at 63.5 35.56 0)
 			(hide yes)
 			(show_name no)
